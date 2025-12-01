@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- category -->
+  <question type="category">
+    <category>
+      <text>$module$/top/Por defecto en Unidad 02</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>Categoría por defecto para preguntas compartidas en el contexto Unidad 02.</text>
+    </info>
+    <idnumber/>
+  </question>
+
+  <question type="category">
+    <category>
+      <text>$module$/top/Por defecto en Unidad 02/Unidad 02</text>
+    </category>
+    <info format="moodle_auto_format"><text/></info>
+    <idnumber/>
+  </question>
+
+  <!-- ========================= -->
+  <!-- PREGUNTA 1 -->
+  <!-- ========================= -->
+  <question type="multichoice">
+    <name><text>2025-11-30-U02-G05-01</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>¿Cuál de los siguientes modos de operación de IPSec se caracteriza por encapsular todo el paquete IP original dentro de una nueva cabecera, siendo el estándar habitual para las conexiones Site-to-Site?</p>
+      ]]></text>
+    </questiontext>
+
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="0" format="html"><text><![CDATA[<p>Modo Transporte</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Modo IKE_AUTH</p>]]></text></answer>
+    <answer fraction="100" format="html"><text><![CDATA[<p>Modo Túnel</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Modo Transparente</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Modo Híbrido</p>]]></text></answer>
+  </question>
+
+  <!-- ========================= -->
+  <!-- PREGUNTA 2  -->
+  <!-- ========================= -->
+  <question type="multichoice">
+    <name><text>2025-11-30-U02-G05-02</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>Seleccione los tres (3) algoritmos criptográficos que se utilizan legítimamente dentro de una arquitectura VPN segura para funciones de cifrado o integridad.</p>
+      ]]></text>
+    </questiontext>
+
+    <defaultgrade>1.0000000</defaultgrade>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+
+    <answer fraction="33.33333" format="html"><text><![CDATA[<p>AES (Advanced Encryption Standard)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>Telnet (Teletype Network)</p>]]></text></answer>
+    <answer fraction="33.33333" format="html"><text><![CDATA[<p>RSA (Rivest-Shamir-Adleman)</p>]]></text></answer>
+    <answer fraction="33.33333" format="html"><text><![CDATA[<p>SHA-2 (Secure Hash Algorithm 2)</p>]]></text></answer>
+    <answer fraction="0" format="html"><text><![CDATA[<p>POP3 (Post Office Protocol 3)</p>]]></text></answer>
+  </question>
+
+  <!-- ========================= -->
+  <!-- PREGUNTA 3  -->
+  <!-- ========================= -->
+  <question type="matching">
+    <name><text>2025-11-30-U02-G05-03</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>Relaciona cada número (Concepto) con su letra correspondiente (Definición).</p>
+      ]]></text>
+    </questiontext>
+
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <shuffleanswers>true</shuffleanswers>
+
+    <subquestion format="html">
+      <text><![CDATA[<p>WireGuard</p>]]></text>
+      <answer><text>Protocolo moderno, de código ligero y alto rendimiento ("Stateless").</text></answer>
+    </subquestion>
+
+    <subquestion format="html">
+      <text><![CDATA[<p>IKEv2</p>]]></text>
+      <answer><text>Protocolo de la suite IPSec encargado de negociar claves y autenticar.</text></answer>
+    </subquestion>
+
+    <subquestion format="html">
+      <text><![CDATA[<p>SSL VPN</p>]]></text>
+      <answer><text>Tecnología que permite acceso vía navegador web (Capa 7) sin instalar clientes.</text></answer>
+    </subquestion>
+
+    <subquestion format="html">
+      <text><![CDATA[<p>PFS (Perfect Forward Secrecy)</p>]]></text>
+      <answer><text>Propiedad de seguridad que protege las sesiones pasadas si se roba la clave actual.</text></answer>
+    </subquestion>
+
+    <subquestion format="html">
+      <text><![CDATA[<p>ChaCha20</p>]]></text>
+      <answer><text>Algoritmo de cifrado rápido, ideal para móviles que no soportan AES por hardware.</text></answer>
+    </subquestion>
+  </question>
+
+  <!-- ========================= -->
+  <!-- PREGUNTA 4  -->
+  <!-- ========================= -->
+  <question type="shortanswer">
+    <name><text>2025-11-30-U02-G05-04</text></name>
+
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>¿Qué nombre recibe la técnica de configuración que permite a un usuario de VPN acceder a la red corporativa segura y a Internet local simultáneamente sin enviar todo el tráfico por el túnel?</p>
+      ]]></text>
+    </questiontext>
+
+    <defaultgrade>1.0000000</defaultgrade>
+
+    <answer fraction="100"><text>Split-Tunneling</text></answer>
+  </question>
+
+  <!-- ========================= -->
+  <!-- PREGUNTA 5  -->
+  <!-- ========================= -->
+  <question type="truefalse">
+    <name><text>2025-11-30-U02-G05-05</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+      <p>El modo Transporte de IPSec cifra únicamente la carga útil (payload) de los datos, manteniendo visible la cabecera IP original para el enrutamiento.</p>
+      ]]></text>
+    </questiontext>
+    <defaultgrade>1.0000000</defaultgrade>
+
+    <answer fraction="100"><text>true</text></answer>
+    <answer fraction="0"><text>false</text></answer>
+  </question>
+
+</quiz>
